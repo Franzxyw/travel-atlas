@@ -1,6 +1,8 @@
 # Travel Atlas
 
-A private, mobile-first travel reconstruction tool built with React, TypeScript, Vite and Leaflet. Start with an empty atlas: select real administrative polygons, explore smaller divisions, and explicitly record **Visited**, **Uncertain**, or **Transit-only**. No home cities, shortcuts, or personal travel history are seeded.
+A mobile-first travel reconstruction tool built with React, TypeScript, Vite and Leaflet. The app and repository are public; personal visit records stay in each browser. Start with an empty atlas: select real administrative polygons, explore smaller divisions, and explicitly record **Visited**, **Uncertain**, or **Transit-only**. No home cities, shortcuts, or personal travel history are seeded.
+
+Live application: https://franzxyw.github.io/travel-atlas/
 
 ## Run locally
 
@@ -45,20 +47,20 @@ Generated Germany bundles are already included, so normal builds do not need ups
 
 ## Privacy, persistence and ChatGPT
 
-- **Repository is private; hosting is owner-private through Sites.** Source code and generic public boundaries contain no private visit records.
+- **The repository and GitHub Pages app are public.** Source code and generic public boundaries contain no private visit records. Each visitor starts with their own empty atlas; nobody can read another browser's local records through this app.
 - Records, notes and interface language live in browser `localStorage`. No analytics, accounts, travel upload or cloud synchronization is implemented. iPhone/iPad/desktop each keep a separate atlas until you transfer a JSON backup. Private browsing and clearing site data can erase records.
 - **Export JSON backup** downloads a versioned, portable record. **Import JSON** validates the entire backup before merging; matching IDs are replaced. Undo can reverse an import. Back up regularly; local storage is not a backup.
 - **Copy for ChatGPT** or **Download travel context** creates an explicit plain-text handoff that distinguishes confirmed, uncertain, and transit-only places. ChatGPT does not automatically read this site's browser storage.
 - External tile/boundary services receive IP addresses and requested map areas. They do not receive your visit statuses or notes. Source names and network errors are displayed as text, never rendered as HTML.
 - Files under `private/`, environment files, travel-history/backup JSON filenames, build output, and test artifacts are ignored. Never place private data under `public/`.
 
-## Private deployment
+## Alternative private deployment
 
 The `.openai/hosting.json` manifest binds this app to its owner-private Sites project. The production deployment is built at `/`, with only the static build artifact published. Sites enforces owner access before serving the app. A private code repository by itself is not website access control.
 
 ## Optional GitHub Pages automation
 
-GitHub Actions always runs the build and unit tests. A separate Pages workflow is supplied but **disabled unless explicitly opted in** because this project is private. Normal Pages sites can be public even when their code repository is private; private Pages access requires eligible Enterprise organization hosting. See [GitHub's visibility documentation](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).
+GitHub Actions runs the build and unit tests. Pages deployment is enabled for this public repository through `ENABLE_GITHUB_PAGES=true`; pushes to `main` automatically publish the app. Set this variable to `false` to stop subsequent Pages deployments. Normal Pages sites can be public even when their code repository is private; private Pages access requires eligible Enterprise organization hosting. See [GitHub's visibility documentation](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).
 
 If you later deliberately choose compatible GitHub Pages hosting:
 
