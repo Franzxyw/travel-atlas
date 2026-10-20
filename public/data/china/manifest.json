@@ -1,0 +1,3592 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "provinces": {
+      "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/CHN/ADM1/geoBoundaries-CHN-ADM1.geojson",
+      "year": 2019,
+      "license": "Public Domain",
+      "boundaryID": "CHN-ADM1-43563684",
+      "sha256": "3a00467a0db9b4136facb5f2f3d0edbfd96adb15651cfdf63991da9281030e85"
+    },
+    "counties": {
+      "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/CHN/ADM3/geoBoundaries-CHN-ADM3_simplified.geojson",
+      "year": 2017,
+      "license": "ODbL-1.0",
+      "boundaryID": "CHN-ADM3-62558664",
+      "sha256": "ea64fe24f193e319ce48895f229a5b3f46d2a60f3f3df67e6172ab037e4cc8fd"
+    },
+    "names": {
+      "url": "https://raw.githubusercontent.com/zhChuXiao/ChinaGeoJson/7aa2c5fabc6a892015625898c3482874b233f9de/info.json",
+      "license": "MIT (name/code/parent/point catalog only; no DataV polygons)",
+      "sha256": "6049bbadde7770e07eb816183aaf6cf7a67a4ab663cc89fe00b8fd0d35ebc993"
+    }
+  },
+  "bundles": {
+    "CN:110000": {
+      "file": "CN-110000.json",
+      "bytes": 120984,
+      "sha256": "7b70cb0ac8f37143a39dd4c3e11f804d7aa17acbff61ad1230a16b415c1769b1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 16,
+      "derived": false,
+      "partial": false
+    },
+    "CN:120000": {
+      "file": "CN-120000.json",
+      "bytes": 45852,
+      "sha256": "f367391331a3b4a4a44b9d4862ccb8a97e38a4657bfb5eed167632791d82a0a7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 16,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130000": {
+      "file": "CN-130000.json",
+      "bytes": 287855,
+      "sha256": "865515c6715b8e58c91558d7f449a04724cc3ef4f20ca8cb3ab9a700c99e477b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": true,
+      "partial": false
+    },
+    "CN:130100": {
+      "file": "CN-130100.json",
+      "bytes": 98354,
+      "sha256": "258c7140eb6991b7a97f90722b0e560844f22f46b9038647871725499c0f4eb1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 21,
+      "expected": 22,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130200": {
+      "file": "CN-130200.json",
+      "bytes": 77177,
+      "sha256": "1355530ed407ca6ad01e15d5786405ba6c5b9dc55906b0d81059cd1e79dd3915",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130300": {
+      "file": "CN-130300.json",
+      "bytes": 18746,
+      "sha256": "9c001e92090149caae7e7cac53ad6bcebe09515b59c7977f271e514631ded133",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130400": {
+      "file": "CN-130400.json",
+      "bytes": 75857,
+      "sha256": "70948c552619a4ead83f688f57dc6ae152657def84c77bf871aa759ff09b0af7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 18,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130500": {
+      "file": "CN-130500.json",
+      "bytes": 95733,
+      "sha256": "0f76946a9ad840eebda15bb0924448a4e9d983aeeceb9a81046d6417e191db37",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 15,
+      "expected": 18,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130600": {
+      "file": "CN-130600.json",
+      "bytes": 135843,
+      "sha256": "2529fefa43171b1c0ca37244fcab3a7c70634ef8a651efedcdf9d1de2a7f4d95",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 23,
+      "expected": 24,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130700": {
+      "file": "CN-130700.json",
+      "bytes": 78969,
+      "sha256": "827c6a791836b2e336a4a50aad66a3ae132e94996dd382c34e03a2748c2c8635",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 15,
+      "expected": 16,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130800": {
+      "file": "CN-130800.json",
+      "bytes": 44940,
+      "sha256": "c502a8f36335faf9f78a4eb7d686b05922a5dabea93f8de70c51706c1568aff9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:130900": {
+      "file": "CN-130900.json",
+      "bytes": 90444,
+      "sha256": "a4f64900b085cbf4e3152a94f8c6236fe2cb278747afb57a2a5a57564f10c4ef",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 15,
+      "expected": 16,
+      "derived": false,
+      "partial": true
+    },
+    "CN:131000": {
+      "file": "CN-131000.json",
+      "bytes": 37082,
+      "sha256": "0b27f772bbdf4e6f3c611a6358f7dae90ff39ce616b325c9481934e1fe97891e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:131100": {
+      "file": "CN-131100.json",
+      "bytes": 63111,
+      "sha256": "0a4149a5358b6acedcbad1790c163e6370adac35d2aaf7b2a3d0b712b3511bcb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:140000": {
+      "file": "CN-140000.json",
+      "bytes": 163123,
+      "sha256": "d4493743570246802602f2703f7738aedb9ba3f782e8d31b3bead3e2252add6e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": true,
+      "partial": false
+    },
+    "CN:140100": {
+      "file": "CN-140100.json",
+      "bytes": 40907,
+      "sha256": "486ca45a54823ca9f64af0dbd4bc6b0f2958a85d6111d03c926a128d9feb487e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:140200": {
+      "file": "CN-140200.json",
+      "bytes": 24019,
+      "sha256": "3594e67eeedd68c7159644665d428b464ee9069df4623d10a47cf3be32b14b0f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:140300": {
+      "file": "CN-140300.json",
+      "bytes": 22866,
+      "sha256": "cc4f82db39f7d824a07ee6a011c687d1d31183dce92ae1702f71d9a23148bf97",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:140400": {
+      "file": "CN-140400.json",
+      "bytes": 31252,
+      "sha256": "47860e7ef60caa8119c4f72152c23f0d344ae3816efb7ee9b60a7ede3393b688",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:140500": {
+      "file": "CN-140500.json",
+      "bytes": 24253,
+      "sha256": "7bfe7d0dac84fbee61fd0026e3d333862c9de7d5ca95512f8d70c86428c82829",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:140600": {
+      "file": "CN-140600.json",
+      "bytes": 23326,
+      "sha256": "ea8be14242e14baab49dd51871a3984e86421168102d7855367c588e9aef7cee",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:140700": {
+      "file": "CN-140700.json",
+      "bytes": 65387,
+      "sha256": "7804f976f99359b088bfddd7cd1ebefd79f6a74f55e66cf87b9be2108247489e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:140800": {
+      "file": "CN-140800.json",
+      "bytes": 40497,
+      "sha256": "411d8e0107c802f7e487526845f87ecf9bb5f67207cba2c362583a0b54c2b352",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": false,
+      "partial": false
+    },
+    "CN:140900": {
+      "file": "CN-140900.json",
+      "bytes": 46373,
+      "sha256": "d9185d21e3f7fd88e3087c6a40b4bcef88edd9fa2bade54f952cbf3988313a53",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:141000": {
+      "file": "CN-141000.json",
+      "bytes": 45655,
+      "sha256": "2fc37ec475d7bbbfec60568a8787f6c7a8027bfa56179189062a4178fb825a56",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 17,
+      "derived": false,
+      "partial": true
+    },
+    "CN:141100": {
+      "file": "CN-141100.json",
+      "bytes": 50075,
+      "sha256": "10cc8dba6c33bd4e369e7e9eb74c1062eceefc21a0f781399066181ac12a33d5",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": false,
+      "partial": false
+    },
+    "CN:150000": {
+      "file": "CN-150000.json",
+      "bytes": 150853,
+      "sha256": "9d6639be85da271db3edcc1aaf172580cfb83982f45f6b3cc06aea7fb9ec85bc",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": true,
+      "partial": true
+    },
+    "CN:150100": {
+      "file": "CN-150100.json",
+      "bytes": 15332,
+      "sha256": "2e482c5e915005fe71be2708d2f1c9df5714b59fe39b7f267cdba891b5d86f3b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150200": {
+      "file": "CN-150200.json",
+      "bytes": 24797,
+      "sha256": "9e025d99acb93385705fd0fc6ce9d97541500c4dd523f19c9a5c1f9d608fc442",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150300": {
+      "file": "CN-150300.json",
+      "bytes": 6834,
+      "sha256": "9a78f9ce1c4aa35560cfa7946230504695645d1363602fdbc8d9736644e89075",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:150400": {
+      "file": "CN-150400.json",
+      "bytes": 32222,
+      "sha256": "f169f901e45e3b1b215c8654279a8cf2b3cf75e79be72a2571aa9d99cd4becf8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150500": {
+      "file": "CN-150500.json",
+      "bytes": 10956,
+      "sha256": "aac06a56d82e78676800bf18e05157c83d91cad1a30ea782a0808f4f4dfd569b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150600": {
+      "file": "CN-150600.json",
+      "bytes": 7807,
+      "sha256": "e853a1bb9b222a39cd80ebb16738dd8cba94e760e356d9843db7336987fa01ec",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150700": {
+      "file": "CN-150700.json",
+      "bytes": 49601,
+      "sha256": "1e91c954281d2798dfd893d997c4dbdf93c711eb8e58068a9ba57484fe00a24e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150800": {
+      "file": "CN-150800.json",
+      "bytes": 11226,
+      "sha256": "929cc03b1797e8cc4443e4da32487a29c39f16f46f48e26ceefd79dcf9e3c309",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:150900": {
+      "file": "CN-150900.json",
+      "bytes": 36575,
+      "sha256": "abd845e1117be5ea03da4c54d9a28620b58805406f784e69a7e5074af06e5575",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:152200": {
+      "file": "CN-152200.json",
+      "bytes": 6000,
+      "sha256": "567184aa6aa080e7475094fd392fa17167dcbb8dfee4b05a3bd19c3c22ba2aca",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:152500": {
+      "file": "CN-152500.json",
+      "bytes": 4751,
+      "sha256": "e6ed235d8cccb1420d623051d67fc18939bc57a8b7695bcc4fb4c38195dc39f8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210000": {
+      "file": "CN-210000.json",
+      "bytes": 236117,
+      "sha256": "e5d75d7e8cbac23ffd7bbec3381a9132ac2f130c8bf9cda320dd8ed3da8a7257",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 14,
+      "derived": true,
+      "partial": false
+    },
+    "CN:210100": {
+      "file": "CN-210100.json",
+      "bytes": 40742,
+      "sha256": "791a297f1bcc3bf4ac28d26e5c73731c04e5a7cebc9ffb90e2cb40516d3ab117",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210200": {
+      "file": "CN-210200.json",
+      "bytes": 78035,
+      "sha256": "bb6865880f79e8087df59a429d92df1790ab466a1f7f81d4054ad517f67347ac",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210300": {
+      "file": "CN-210300.json",
+      "bytes": 23625,
+      "sha256": "67b27c074d99176693352349bde887a27654f7455babdcb4b4a4882959bb0aa8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210400": {
+      "file": "CN-210400.json",
+      "bytes": 20556,
+      "sha256": "ae972094aaa7e4784ecfca12f05ce23a404d6e771ce9f27e23e49c605d9c216e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210500": {
+      "file": "CN-210500.json",
+      "bytes": 6004,
+      "sha256": "9c22c3388b8e95efdb4be7366685031bf4987a8536d485e0ea30bbbfdd1e6b22",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210600": {
+      "file": "CN-210600.json",
+      "bytes": 30904,
+      "sha256": "cb6b948cb313d39d20b6a729147badc616437479a630830dd900611d3af8e745",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210700": {
+      "file": "CN-210700.json",
+      "bytes": 32730,
+      "sha256": "0944f5a59474a0adc75996ddf6bd6177f67c48c237bf090e5e22d0340677a0eb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:210800": {
+      "file": "CN-210800.json",
+      "bytes": 23370,
+      "sha256": "3a2a950e8f56e10f1aa895f1c2f288bd9f56d466dfed192c589cbe062df7dfcf",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:210900": {
+      "file": "CN-210900.json",
+      "bytes": 20656,
+      "sha256": "dab04c545e0206b11dd2987bb88277586c83b2de7439f7dbdf0e4656a3109fd7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:211000": {
+      "file": "CN-211000.json",
+      "bytes": 27870,
+      "sha256": "bd7a5c97404c6eec6a19746c93b90442e775bd3b53dafb37ad058d6a8a89c1b1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:211100": {
+      "file": "CN-211100.json",
+      "bytes": 15622,
+      "sha256": "eda02cccf79ba3077668ec0cc5e2de224bad676e7451a7519756b58157be85ab",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:211200": {
+      "file": "CN-211200.json",
+      "bytes": 25709,
+      "sha256": "5a98a1fb8f1a5d4c7b18380b72a3ad9eec54bef517cfe93a321875de9f1b7fde",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:211300": {
+      "file": "CN-211300.json",
+      "bytes": 26031,
+      "sha256": "baffab9b5d2f58ed43d6ec05f4663fb8c312f07e2908738df8c908d5cca98184",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:211400": {
+      "file": "CN-211400.json",
+      "bytes": 33505,
+      "sha256": "faab4a7f873f02c823b3ed65547eb4a3682bc8a634d573b3f2fe8e8fa70c7fcf",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:220000": {
+      "file": "CN-220000.json",
+      "bytes": 132735,
+      "sha256": "2aa6e6319857c42d978f4fde741ec8a6a8d633698524335c963af53020f73ef0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": true,
+      "partial": false
+    },
+    "CN:220100": {
+      "file": "CN-220100.json",
+      "bytes": 80153,
+      "sha256": "d9d6de2da3cdac37d2484aa2904252dc568d4a0cbaf1d32f5aca09dbf7f224eb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:220200": {
+      "file": "CN-220200.json",
+      "bytes": 38605,
+      "sha256": "e675c0dae3c6c2b83a30d598170002eb7a2701f35995ef7914115fb97a3150ad",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:220300": {
+      "file": "CN-220300.json",
+      "bytes": 10181,
+      "sha256": "f4e90bfe8cb031569a6d34e503cfbc67c8e47b1bb4fedd6af9f988189a5650af",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:220400": {
+      "file": "CN-220400.json",
+      "bytes": 12140,
+      "sha256": "3afb8698e8dc697e9a4eee905b119729d6a5fed8eed14ed8496577d5185b3844",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:220500": {
+      "file": "CN-220500.json",
+      "bytes": 41227,
+      "sha256": "4c0cea0b0b756e17c26616d922ca0360bda73bbaf0ddcad90dc49e97dec872e8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:220600": {
+      "file": "CN-220600.json",
+      "bytes": 25801,
+      "sha256": "d61e5df8996a8714caab6dde6db67c73d6b66ffdee28159096c05d0548b877b1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:220700": {
+      "file": "CN-220700.json",
+      "bytes": 18210,
+      "sha256": "adacb19aef05b5c0e99fe9dd99b615f60679e66b7f2df98d19bfb816120e49a9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:220800": {
+      "file": "CN-220800.json",
+      "bytes": 35215,
+      "sha256": "af79319d1cdf0d03b04992283994a126930e1b23c11631c2259a503ec342edb8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:222400": {
+      "file": "CN-222400.json",
+      "bytes": 49214,
+      "sha256": "4f8372e3b065a81ec10d0dc5063d0ef42cfd138c3daf639012aa11712d086b43",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:230000": {
+      "file": "CN-230000.json",
+      "bytes": 304567,
+      "sha256": "550ce9db3bad55c8b9021be0139834f66d36c29c9d022a991e41e505517c87d0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": true,
+      "partial": false
+    },
+    "CN:230100": {
+      "file": "CN-230100.json",
+      "bytes": 104197,
+      "sha256": "ab94d749d6bfb4d73cd6076437636ef079f8aa2f68e3317ca8596028e592d7db",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 18,
+      "expected": 18,
+      "derived": false,
+      "partial": false
+    },
+    "CN:230200": {
+      "file": "CN-230200.json",
+      "bytes": 52932,
+      "sha256": "603d1c7df511d114ae328cb297b764379055de7b10f94b44b52a434378358a0a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 16,
+      "derived": false,
+      "partial": true
+    },
+    "CN:230300": {
+      "file": "CN-230300.json",
+      "bytes": 45493,
+      "sha256": "814e147c91bb6d1ea273fb3462f31345095a4199b6f793e1f6828dbdeebfde03",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:230400": {
+      "file": "CN-230400.json",
+      "bytes": 28088,
+      "sha256": "ffd92d6d181d42b13e10c1509de811fab844f65118b23d4d5c60f9e36a8b5bc2",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:230500": {
+      "file": "CN-230500.json",
+      "bytes": 49236,
+      "sha256": "f7d525bb58cb27561e6ba79f9f7e1242769c32d0fd995e3302716b02986c3466",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:230600": {
+      "file": "CN-230600.json",
+      "bytes": 24557,
+      "sha256": "793fc48b11d7b0115d7f201f03db7a5d3a1333b47426806105fcaf04d07a625e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:230700": {
+      "file": "CN-230700.json",
+      "bytes": 31081,
+      "sha256": "a5964208c81f2deb22acd5820fe6e4cbd2988b7b85e7c3b5709933894d64cebb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:230800": {
+      "file": "CN-230800.json",
+      "bytes": 70188,
+      "sha256": "7475ffbd9e35a1199e51de39ea79d04ecc4089d40c7d53f4481c116f0ffee41a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:230900": {
+      "file": "CN-230900.json",
+      "bytes": 15579,
+      "sha256": "10592565c7f466e70984c17d8a251f619fbab0e83f5975eaca76a23af9c498de",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:231000": {
+      "file": "CN-231000.json",
+      "bytes": 49425,
+      "sha256": "8d8419a9c7c3b2e23f9d5f5b3d52e80af9a7cb4d38a60467cc22bb7d9ae58230",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:231100": {
+      "file": "CN-231100.json",
+      "bytes": 56606,
+      "sha256": "98f89e7d4280e14e5466dc379669b1a77af123e8a10ce522b6c90c2f9b7c6e05",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:231200": {
+      "file": "CN-231200.json",
+      "bytes": 51390,
+      "sha256": "a61084a99d6577c5052eb29e347e1aca1c79e4cbf53bf86e2d4801e4a28e4587",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:232700": {
+      "file": "CN-232700.json",
+      "bytes": 30558,
+      "sha256": "04f926113d99603d74d5ebff0a204c4293d72391aa019eaef5896ddac52b1319",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:310000": {
+      "file": "CN-310000.json",
+      "bytes": 62630,
+      "sha256": "29e74a0af9f722b46d3061dccb0693fdef7c0eb5adcaa3bd25444fdc30eb0d81",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 15,
+      "expected": 16,
+      "derived": false,
+      "partial": true
+    },
+    "CN:320000": {
+      "file": "CN-320000.json",
+      "bytes": 203281,
+      "sha256": "067fe41c703768792bf01a3b91ef83d7e4bd631de68fd6a0ea6ddb07e8db56a0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": true,
+      "partial": false
+    },
+    "CN:320100": {
+      "file": "CN-320100.json",
+      "bytes": 55070,
+      "sha256": "dc02f46696378b026fff304404af25bb4360a1a53817d0a33807d6c78f1fbd94",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:320200": {
+      "file": "CN-320200.json",
+      "bytes": 31018,
+      "sha256": "1a2a480bf179fd8772a68b0ac532d3ba156d4b7bf8ba19401a6f5a056c08387e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:320300": {
+      "file": "CN-320300.json",
+      "bytes": 32513,
+      "sha256": "7a8e48d8b147345156104026b068676469538ec621af7c3bdcdc32fc55af66b4",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:320400": {
+      "file": "CN-320400.json",
+      "bytes": 33645,
+      "sha256": "2861dc3a4cb8f35e834f4d649b9a464afbc7d36eeb28a781a2cb1f4d3d46c79e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:320500": {
+      "file": "CN-320500.json",
+      "bytes": 45842,
+      "sha256": "b175892528d33e2b56ac290db0dc6e780adb01ee628300adfb37f67001fc0bc3",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:320600": {
+      "file": "CN-320600.json",
+      "bytes": 37662,
+      "sha256": "1acc768db029c5b2541a6de285e244fd316dd67c1409354cbf7e1a19e4607fed",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:320700": {
+      "file": "CN-320700.json",
+      "bytes": 28306,
+      "sha256": "97027154e5a6db2450e6354f454074ebe0361257259a71389aa43c80b5bb14f4",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:320800": {
+      "file": "CN-320800.json",
+      "bytes": 31718,
+      "sha256": "1d9394a7e3be012f75637d3b81a998102ebfdf733d7a65233f7679660dbab49f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:320900": {
+      "file": "CN-320900.json",
+      "bytes": 48424,
+      "sha256": "69c2051262e5592e443dfac97b7b271e87de74f5921b896c9b2f2cfac7967319",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:321000": {
+      "file": "CN-321000.json",
+      "bytes": 25270,
+      "sha256": "ad8d1772edd19b3317a5499a887ef2eed57ae57aaa5764ef9f188afaac8f12e7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:321100": {
+      "file": "CN-321100.json",
+      "bytes": 36749,
+      "sha256": "b30a08f98bb910a7c0854c00bd5ce86801b3374a8f5b4eb60ca0989e1d8668af",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:321200": {
+      "file": "CN-321200.json",
+      "bytes": 28684,
+      "sha256": "86dc74cd6b76587b9397ad6497054e98c0c2c815e0435077f8e684125bc06cef",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:321300": {
+      "file": "CN-321300.json",
+      "bytes": 17036,
+      "sha256": "aa779472cfd743eec039d33a1dd4d4ffc0e15f506149528a048ae6d7e1eeb465",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:330000": {
+      "file": "CN-330000.json",
+      "bytes": 339420,
+      "sha256": "de7b82caed7cf863f2c091d1599b2f73f0185cf382148ac8154b7fbba5589e3e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": true,
+      "partial": false
+    },
+    "CN:330100": {
+      "file": "CN-330100.json",
+      "bytes": 62416,
+      "sha256": "cc2c978dc6bd2c22ee91050728afc880cccb253f9c997080aa24a6d54c9d84a2",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:330200": {
+      "file": "CN-330200.json",
+      "bytes": 88995,
+      "sha256": "9f70e5f2782d3f680775dd0aee94d00670bc2ed29739d5da3749960047c5ece3",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:330300": {
+      "file": "CN-330300.json",
+      "bytes": 62449,
+      "sha256": "8e54d2faa6d316b42759ec49558fd209a3874ef02a9947f49e6d3ea7cd9ab48f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:330400": {
+      "file": "CN-330400.json",
+      "bytes": 42300,
+      "sha256": "fd2701e7b4a0e9b19a133ee524c6c5c1265c026d621cb3f6a81f6fd0e441b389",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:330500": {
+      "file": "CN-330500.json",
+      "bytes": 34571,
+      "sha256": "0eeb49641bae7255941eb7306109ce36871a54ce0cb5de3a06ce98674519e0ea",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:330600": {
+      "file": "CN-330600.json",
+      "bytes": 29616,
+      "sha256": "5568c8d2437b2641b385e4800dd54d8c3f9c2f353dc93ef2fd1cd564b2c0be84",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:330700": {
+      "file": "CN-330700.json",
+      "bytes": 44104,
+      "sha256": "9d19ccbb3647ea99d1f6f5b5310a412f1db817935d125fc496d24f0cd4f7dd1f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:330800": {
+      "file": "CN-330800.json",
+      "bytes": 39618,
+      "sha256": "271cbd8832bb927f402e014f829ce9f7e5b264ce560fd163832e420d09ba0a05",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:330900": {
+      "file": "CN-330900.json",
+      "bytes": 62094,
+      "sha256": "b6f8fbf0ecc917543f4e57ca8906ceb11701d83224aa2bf96a631e85af408334",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:331000": {
+      "file": "CN-331000.json",
+      "bytes": 64493,
+      "sha256": "bd5b6313af659c32d7418136fd9ca3dd5468c536edb349674e572f228d4b5b07",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:331100": {
+      "file": "CN-331100.json",
+      "bytes": 45975,
+      "sha256": "5d0e16caf3237d853f4dace996cf9e3da1c2bde0658a63f7027d188251e1f011",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:340000": {
+      "file": "CN-340000.json",
+      "bytes": 201973,
+      "sha256": "c1c869d82d23c1be7fc676bbe3d9d199624e17c7ff4021efb55024015607cea8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 16,
+      "derived": true,
+      "partial": false
+    },
+    "CN:340100": {
+      "file": "CN-340100.json",
+      "bytes": 40300,
+      "sha256": "6e050e7b93d833ba71f6f98d91fa5c348c784216906ee1174f7367e5dbc79e67",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:340200": {
+      "file": "CN-340200.json",
+      "bytes": 23193,
+      "sha256": "4a2b4f28134d12e2e7c3a7d13311c1afa3164cd7e19a0270beb6053376df75c8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:340300": {
+      "file": "CN-340300.json",
+      "bytes": 17858,
+      "sha256": "1e0ac8c0e95efa62a61914e6c928545745d275d99a185a156b3aa6c1c6019ea6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:340400": {
+      "file": "CN-340400.json",
+      "bytes": 17887,
+      "sha256": "d857715b99f04760a72cacd68d7edb5e0c665a84927dd9d7170c46d5afebd155",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:340500": {
+      "file": "CN-340500.json",
+      "bytes": 21931,
+      "sha256": "0fd07ba2dcfbf103ed9e5903a15963a715980b6592c176a15abdb3a40616f590",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:340600": {
+      "file": "CN-340600.json",
+      "bytes": 13080,
+      "sha256": "ab7ac32ed1d40cf25aa73a8633ee79f9d726773243957e4daf4148b0ec8cff5c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:340700": {
+      "file": "CN-340700.json",
+      "bytes": 18986,
+      "sha256": "af66e8645f5de1dafbda657fffe654a0fd80b595643e8e7f5a1ced6ed0270595",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:340800": {
+      "file": "CN-340800.json",
+      "bytes": 33373,
+      "sha256": "ad1580ac9478e8b3317ad51c3cf39265458533a26910fac34e61feebe061f6b1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:341000": {
+      "file": "CN-341000.json",
+      "bytes": 32153,
+      "sha256": "772b45cff8402e21a58884c6e270474c9f711e8cb11cdfc46b2e5561707732cc",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:341100": {
+      "file": "CN-341100.json",
+      "bytes": 43410,
+      "sha256": "520a8a132dd7d427d7d28f92662fc4ecbac2d78f1227e6efe21dd6d9c3d9bbb2",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:341200": {
+      "file": "CN-341200.json",
+      "bytes": 31093,
+      "sha256": "7aafef91188cfba30f3ed25dafd19f80a3753a0d5cf6a79ec7041d32cc30551d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:341300": {
+      "file": "CN-341300.json",
+      "bytes": 16619,
+      "sha256": "cf94585fa136705594fb5db0ea6c90d8b36533d50156998cacc127790f1a65cb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:341500": {
+      "file": "CN-341500.json",
+      "bytes": 32076,
+      "sha256": "61a00e36bc3ad4c35e5c604e30cd88038587140b98f4cbb7b9a754852306829e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:341600": {
+      "file": "CN-341600.json",
+      "bytes": 11068,
+      "sha256": "04d34f051cd90004fc6d28122a4357d8bb2591eb523d9e43be01e6eca6931bf6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:341700": {
+      "file": "CN-341700.json",
+      "bytes": 21692,
+      "sha256": "f9b7ceebfdfa030eab4c8a9beb925c84cd5ccda981ab700f0112d0b136c29850",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:341800": {
+      "file": "CN-341800.json",
+      "bytes": 36911,
+      "sha256": "79963f013130fe93f92534e17aa3bd88646ac7084d7044c83e409b112979d4f0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350000": {
+      "file": "CN-350000.json",
+      "bytes": 284074,
+      "sha256": "867102cd732df85f8ca35372a4e91d12ecb7d0573f26ba3f4b511191e832a456",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": true,
+      "partial": false
+    },
+    "CN:350100": {
+      "file": "CN-350100.json",
+      "bytes": 105835,
+      "sha256": "a87b1099a1450b1ad1ac4a90e7d93147e518afcd110b6fca90bd263e0a0595d8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350200": {
+      "file": "CN-350200.json",
+      "bytes": 23318,
+      "sha256": "80b6baeff8d7343df4ca29b59711a3def8acff25029577e4ca60f2413070ab20",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350300": {
+      "file": "CN-350300.json",
+      "bytes": 38792,
+      "sha256": "f4a2cb2ae696fc8a64a4082276bc624e4d2c3411cf09de58f98ac93a8ead4591",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350400": {
+      "file": "CN-350400.json",
+      "bytes": 50077,
+      "sha256": "06c34731a584792293c711bcf4a5999b3446270b4d738b47643736b00d3c1f57",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:350500": {
+      "file": "CN-350500.json",
+      "bytes": 54598,
+      "sha256": "22993583c997633bd7a95ede19569242bae0a552f688dabb65f0989f3031f01c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:350600": {
+      "file": "CN-350600.json",
+      "bytes": 67637,
+      "sha256": "afbc40b933c8c2caae4c3509afff41fa317fbf1caa55b6a000f2b32f31c0a456",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350700": {
+      "file": "CN-350700.json",
+      "bytes": 67649,
+      "sha256": "afc64e7a3df2f14a799d66ef4a0293f5b0daef9c9ed5104fe45aee1a8fbd1908",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350800": {
+      "file": "CN-350800.json",
+      "bytes": 33998,
+      "sha256": "df3df88c3d20c1cfc52eaff390366d449934fcdb9c5ff975948b2e7bcaa596f3",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:350900": {
+      "file": "CN-350900.json",
+      "bytes": 96392,
+      "sha256": "e16a33c371920742794078c99e0f15b31a3aa5b7e556ba756befca17594046da",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:360000": {
+      "file": "CN-360000.json",
+      "bytes": 353134,
+      "sha256": "4e592417b66e2256778f58a9bd3cd6483d377fbf0994f9f61dd8524e78f9bdb1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": true,
+      "partial": false
+    },
+    "CN:360100": {
+      "file": "CN-360100.json",
+      "bytes": 53966,
+      "sha256": "439ccb7610eddd7e2a9ae57560ad27a327990a1c4af862048861aae80a3ed922",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:360200": {
+      "file": "CN-360200.json",
+      "bytes": 34210,
+      "sha256": "bae4e4b926b2e0912b0e71eee7b1137c34e552f61f298ee16314b7fae5c94bfe",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:360300": {
+      "file": "CN-360300.json",
+      "bytes": 25575,
+      "sha256": "c179cb64ea880fd7c6068f315f7dae3e4cc2c437c35eab4a21e2ab1076239691",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:360400": {
+      "file": "CN-360400.json",
+      "bytes": 94801,
+      "sha256": "9591730fc4773a82627affca548a89a586d45343b83361fea4ed05687a011e51",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:360500": {
+      "file": "CN-360500.json",
+      "bytes": 20145,
+      "sha256": "3776ed18bc03d74942eb8abde0036c130f1cc9b7cacac5e1cfaa4b44af5079a4",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 2,
+      "derived": false,
+      "partial": false
+    },
+    "CN:360600": {
+      "file": "CN-360600.json",
+      "bytes": 37677,
+      "sha256": "b6fc3eb93bb164e12aef3ec429c8ebe03dbaa7d68cc9832574a4be09afc67705",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:360700": {
+      "file": "CN-360700.json",
+      "bytes": 83449,
+      "sha256": "731726dd3879aa67cdf5091e4e0b63277414ea15c7a7d4e30951aac3a4a9b550",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 18,
+      "derived": false,
+      "partial": true
+    },
+    "CN:360800": {
+      "file": "CN-360800.json",
+      "bytes": 125152,
+      "sha256": "e2e908bd42665ba7565503c69b029338a4b8026f869641c2388b1fe7a4b8394e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": false,
+      "partial": false
+    },
+    "CN:360900": {
+      "file": "CN-360900.json",
+      "bytes": 97993,
+      "sha256": "f9c870c691664d04c8a44ccc7c6cdb49516e2981cb543ae30afb4acc4efb1211",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:361000": {
+      "file": "CN-361000.json",
+      "bytes": 102502,
+      "sha256": "b45f689da920e9d782a1aaf73c56c434d51cf49bf727b9ec653b6ebe4f4676f5",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:361100": {
+      "file": "CN-361100.json",
+      "bytes": 135523,
+      "sha256": "7cd3b8c32d3d51695e661793b96b425052abc2d3cb85298183a705a70d44da96",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:370000": {
+      "file": "CN-370000.json",
+      "bytes": 317346,
+      "sha256": "e4ad414ac601474abc34085d6da5ad99115998bc167fff77e99b28574ff84f4c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 16,
+      "derived": true,
+      "partial": false
+    },
+    "CN:370100": {
+      "file": "CN-370100.json",
+      "bytes": 37810,
+      "sha256": "cafcedc51f4851b97d04b29eb1d6220f02619a7611455d12c3f1fbbc149b881b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:370200": {
+      "file": "CN-370200.json",
+      "bytes": 75940,
+      "sha256": "f10c4660c3f99c62c5e12a398f1a79df5fd3564f59ffff73d2a4c3a24fd5cc3a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370300": {
+      "file": "CN-370300.json",
+      "bytes": 24412,
+      "sha256": "ab3ce5b09f9ab2fb2f7863bf714bd1e95d92e92b3c68eb980cf1b7b5c7be5131",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370400": {
+      "file": "CN-370400.json",
+      "bytes": 15754,
+      "sha256": "88773482974fce4530b22584f22378b1434193304b03522a2378b4e62e68a697",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370500": {
+      "file": "CN-370500.json",
+      "bytes": 32601,
+      "sha256": "b175386a68b2a23cf9788ae88ab4d1fa102145fa0db93fa6e085678c4ad7a070",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370600": {
+      "file": "CN-370600.json",
+      "bytes": 74191,
+      "sha256": "239dac82d387fe1843dc0a856b6e98605bcc5d5d6085762cf28c8fef9df22e17",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370700": {
+      "file": "CN-370700.json",
+      "bytes": 58186,
+      "sha256": "63570d6651b193454c5597b619c55899317b55d33a1d499907f3055802b81bbf",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 12,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370800": {
+      "file": "CN-370800.json",
+      "bytes": 38900,
+      "sha256": "8bb3a83ef9e8b6d936d7c8d325c58b89330768801165d07ffa6114c91afa4023",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:370900": {
+      "file": "CN-370900.json",
+      "bytes": 31801,
+      "sha256": "f834ebd5a698189d7e0c416796717b2163a2eb7ed2c381eee36c00da87585258",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:371000": {
+      "file": "CN-371000.json",
+      "bytes": 50204,
+      "sha256": "f50727267bfb8c34e994c7213e58a241ca0e69aea8fecc7a95492b37dedda624",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:371100": {
+      "file": "CN-371100.json",
+      "bytes": 27409,
+      "sha256": "93394a330734be56792535eee9495ea8f97ed8a3369d308b5432414010445524",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:371300": {
+      "file": "CN-371300.json",
+      "bytes": 60764,
+      "sha256": "fdd92edf48a2c13751bb896baf771ed5052ea7d2a3fbf7e2d728df00270a40a7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:371400": {
+      "file": "CN-371400.json",
+      "bytes": 40036,
+      "sha256": "f43b97cdacb901a20c48464f62853d3ecc96d34f10d33bd066222a458a230fca",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:371500": {
+      "file": "CN-371500.json",
+      "bytes": 45793,
+      "sha256": "4b17eb35e35a8dbb8d4f15e259c694a22ef1282a19c79343bc310c9c24707430",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:371600": {
+      "file": "CN-371600.json",
+      "bytes": 43388,
+      "sha256": "08812379e51f369fa7aaaa3bf94be8c8edf113f049f9c3d540c62ded8c6ee5a6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:371700": {
+      "file": "CN-371700.json",
+      "bytes": 23569,
+      "sha256": "82fe4104e30e8a980d663b29be8fe4c33658153c1413b442955ef4d43db90917",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:410000": {
+      "file": "CN-410000.json",
+      "bytes": 181900,
+      "sha256": "8c86e946337073a9aa3e50695681158d58b7a9fb2bba0225bad4e997d849c22b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 17,
+      "expected": 18,
+      "derived": true,
+      "partial": true
+    },
+    "CN:410100": {
+      "file": "CN-410100.json",
+      "bytes": 40590,
+      "sha256": "aa9dd2c55d630ceb125d03d6471e4b7c791ddd40ead3ca079a78e25706174f0c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:410200": {
+      "file": "CN-410200.json",
+      "bytes": 24453,
+      "sha256": "aa25a50eabf489c56f5d75e22a707e201ebbd5f4ccc142f806688edb5a0e7071",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:410300": {
+      "file": "CN-410300.json",
+      "bytes": 39191,
+      "sha256": "7b384b1152c138e79a909f002127dafcaf35bf4b96124be9a0a1a1492505c79a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:410400": {
+      "file": "CN-410400.json",
+      "bytes": 23318,
+      "sha256": "0add5d90e9259f993a80ad0aee9689de2940e1fa3dae4cb3568fd9ed292919ab",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:410500": {
+      "file": "CN-410500.json",
+      "bytes": 33892,
+      "sha256": "e52d981fa3cc589129fe4ea708d6fd903c2689de4ab06cd43cedd44323134a74",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:410600": {
+      "file": "CN-410600.json",
+      "bytes": 16138,
+      "sha256": "58188ea36ee9dad210972f3645d3eeb59c1adb14523dd8718999e2bfe9a954cb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:410700": {
+      "file": "CN-410700.json",
+      "bytes": 31166,
+      "sha256": "eed381e15cf8229390d23ce72d1c36c9e5fec822a0a068378b36815d2c212068",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 12,
+      "derived": false,
+      "partial": false
+    },
+    "CN:410800": {
+      "file": "CN-410800.json",
+      "bytes": 34552,
+      "sha256": "f4b3175a22fe3931513faa6191fc4062a4345d1a58e11ae75e1517280e6b36cf",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:410900": {
+      "file": "CN-410900.json",
+      "bytes": 28070,
+      "sha256": "3a28e11988e82941fdf908e02ef491aa9228765ca36b6bf331b12fc3fcf7279d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:411000": {
+      "file": "CN-411000.json",
+      "bytes": 10011,
+      "sha256": "4a9d80accf4aa06c6d4e5488ca7f98e30cd86ff9984d1bdf934ba8088ba3ac83",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:411100": {
+      "file": "CN-411100.json",
+      "bytes": 9084,
+      "sha256": "0510b3ff6a27f274d4b2949d2f7d89c7354e0c2253c70d24df4a1f2d7df8540b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:411200": {
+      "file": "CN-411200.json",
+      "bytes": 20221,
+      "sha256": "f8606679a9cb93d5dab357a6689762cccc2d2eb209044370163b508a7354e406",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:411300": {
+      "file": "CN-411300.json",
+      "bytes": 51196,
+      "sha256": "3682f18d961bbbf4de33ad4ede6256a60c6a257be76367f2bea2e0ad3255d039",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": false,
+      "partial": false
+    },
+    "CN:411400": {
+      "file": "CN-411400.json",
+      "bytes": 24535,
+      "sha256": "1861a78ba569dbabda27972777369f4d9d9383947f87af48f1dc9021dbe12b39",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:411500": {
+      "file": "CN-411500.json",
+      "bytes": 43900,
+      "sha256": "dc422713aba968053160431ec5446834d4f31bcadfa744aca5fba89377beb2ad",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:411600": {
+      "file": "CN-411600.json",
+      "bytes": 31319,
+      "sha256": "899d46a59cffd196b0a045d50268f9262da26d6a3d365380dd72ad1943a11dd9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:411700": {
+      "file": "CN-411700.json",
+      "bytes": 38412,
+      "sha256": "c86060feff5fc06d1e7dbddaa9f8797ad34d27955e4f5de5f8e74b1855ad9790",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:420000": {
+      "file": "CN-420000.json",
+      "bytes": 215432,
+      "sha256": "94bd8317232b1141b322c71501002cc82b4d8a0b61875611ff0e6694ec6ed098",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 17,
+      "derived": true,
+      "partial": true
+    },
+    "CN:420100": {
+      "file": "CN-420100.json",
+      "bytes": 51066,
+      "sha256": "05b9c90feb137c9cceedef0944a308beaec837bca5a175d4248722a1ad35e4e9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:420200": {
+      "file": "CN-420200.json",
+      "bytes": 37092,
+      "sha256": "c9cc7092929a5ee4e16a4fa8fa3d46d5fd28c7457392a12bb45f3c90c06aceb4",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:420300": {
+      "file": "CN-420300.json",
+      "bytes": 55780,
+      "sha256": "8c4da8622369883caea63fe61124d1681c2564163bc9a5ebb275343dde81d121",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:420500": {
+      "file": "CN-420500.json",
+      "bytes": 39168,
+      "sha256": "19082bea40f82ebf01a036522e6e60b50aa62f14eab95c31504a7dac3343a005",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:420600": {
+      "file": "CN-420600.json",
+      "bytes": 44903,
+      "sha256": "53714e5cb80c9670c94d18da625af53a826623f1ffcb59e8f0d9ac57d82a2a6f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:420700": {
+      "file": "CN-420700.json",
+      "bytes": 15646,
+      "sha256": "c67ac06f623e5931af6fa5be6e072f3b1424c86b7a261c34abbdfdb2f032f493",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:420800": {
+      "file": "CN-420800.json",
+      "bytes": 43672,
+      "sha256": "2bf15dc9584972b6c4bea77b281bec1b7d34376070608d42d4b1846e5d0b779d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:420900": {
+      "file": "CN-420900.json",
+      "bytes": 24234,
+      "sha256": "f7b3ef5c80fd1b4d464facd46577fe6777624aeb2a5fdaf087ad669cab53bc27",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:421000": {
+      "file": "CN-421000.json",
+      "bytes": 31248,
+      "sha256": "306183a8f5595323f7639f048dcd55ada576be504bd4b5d2be55b97d1f4b18de",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:421100": {
+      "file": "CN-421100.json",
+      "bytes": 42782,
+      "sha256": "bb9769ce37aeda8215a3c86d3428841299a5b0fa844c9a3ec6d49aef881e9dd1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:421200": {
+      "file": "CN-421200.json",
+      "bytes": 44860,
+      "sha256": "60260416617e325836204f2cfe37cec69e14bf13faecea01215fe15ac01ab551",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:421300": {
+      "file": "CN-421300.json",
+      "bytes": 13475,
+      "sha256": "64a546adad02211eeb68abdf89d8a79c54dcadc94fdae7231b45600ecfa03225",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 3,
+      "derived": false,
+      "partial": true
+    },
+    "CN:422800": {
+      "file": "CN-422800.json",
+      "bytes": 51473,
+      "sha256": "fdd07e39f93d566a6f1fb379cd010764a19b46485e1b8d2fd23f550b7b37c7c5",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:430000": {
+      "file": "CN-430000.json",
+      "bytes": 243986,
+      "sha256": "72e4dda825ac40bc5b491b8c58cdf005f4070040170c1fc88b9ac271b598cc73",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 14,
+      "derived": true,
+      "partial": false
+    },
+    "CN:430100": {
+      "file": "CN-430100.json",
+      "bytes": 34227,
+      "sha256": "67369c57185ca928752450304c664e8bc555ab303665cbe6c7d17001dc52f05e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:430200": {
+      "file": "CN-430200.json",
+      "bytes": 20562,
+      "sha256": "1e25e1873753c9964876fa732100ce5d640da778821de5e05bf9e8e2fb0434cb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:430300": {
+      "file": "CN-430300.json",
+      "bytes": 29753,
+      "sha256": "2f872fa964b69076f3c8d6695f6b06df03b5c4e3a7257319ff8f683b2682db24",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:430400": {
+      "file": "CN-430400.json",
+      "bytes": 54425,
+      "sha256": "0e055635f623793b3d65b69d473283d5649d9872621331931a591e9c447e94a3",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 12,
+      "derived": false,
+      "partial": false
+    },
+    "CN:430500": {
+      "file": "CN-430500.json",
+      "bytes": 57892,
+      "sha256": "40fdb3f7a0051b53d3b274b5a03ef770accb68c5530a3de58469fdd0804c0b17",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:430600": {
+      "file": "CN-430600.json",
+      "bytes": 46131,
+      "sha256": "c5cc18a72f0103099db384d7a4edd69e07df858b7a8529f822cfb8465668195e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:430700": {
+      "file": "CN-430700.json",
+      "bytes": 45329,
+      "sha256": "b349949222c0404efe225fb548cdcd696abb66a5b6fb409c3f3813e631939a98",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:430800": {
+      "file": "CN-430800.json",
+      "bytes": 15478,
+      "sha256": "ebf295116ee35cb026cc5a00e31a5f2542721995b373fd102ea89c069036caf9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:430900": {
+      "file": "CN-430900.json",
+      "bytes": 27063,
+      "sha256": "28b8e376e6519120f6489c9906140070caccfdd81ddc66f3bcf846f87569a95b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:431000": {
+      "file": "CN-431000.json",
+      "bytes": 53595,
+      "sha256": "c6d0bf8e5630bb833bdb3b7d36addc49b9605df55284eb2b928268352c184e33",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:431100": {
+      "file": "CN-431100.json",
+      "bytes": 61899,
+      "sha256": "4f6f394397867d2976c8e8f71ad76a65940a489e73ee8b42e0654d213a8196bc",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:431200": {
+      "file": "CN-431200.json",
+      "bytes": 41319,
+      "sha256": "56e600aea5210117dc34bc76e9f665f840649750a6f80aac527696640bbb8f12",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:431300": {
+      "file": "CN-431300.json",
+      "bytes": 20234,
+      "sha256": "1c67b32cb30e730fa483f591080f88889c3fede309b4ca3de26f8b1d70dc84ff",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:433100": {
+      "file": "CN-433100.json",
+      "bytes": 39983,
+      "sha256": "77aa7d6364eb9480dd7abb3b0a21e1dbcf5cb7b59d17b28217b80c0f60658ba1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:440000": {
+      "file": "CN-440000.json",
+      "bytes": 380275,
+      "sha256": "ee981e7a9383d85c5f060336c77047fc9314bb0db94abae3914bfccc9e28db5d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 19,
+      "expected": 21,
+      "derived": true,
+      "partial": true
+    },
+    "CN:440100": {
+      "file": "CN-440100.json",
+      "bytes": 30541,
+      "sha256": "b74650538119b7a8b9c7ddd2a3d6da1b31822757b3d97e5a99e55c8e06f9fd17",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:440200": {
+      "file": "CN-440200.json",
+      "bytes": 44904,
+      "sha256": "cb92cd32c9eca6a39ad275418e0e8e3c955c2b13fa6cf844e9f67385391bd7f4",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:440300": {
+      "file": "CN-440300.json",
+      "bytes": 33837,
+      "sha256": "df4a144ae2b0bcab2b85656b1de05f3a8986e707810ca770ea5e758420b57cdb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:440400": {
+      "file": "CN-440400.json",
+      "bytes": 27889,
+      "sha256": "4caacda524c878aff4e59d098dab7ea693f059c3c8e1d5e23f3e29b10627710d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:440500": {
+      "file": "CN-440500.json",
+      "bytes": 23180,
+      "sha256": "b1012208974a7ada54052ed178abef562c5a7a88f733dc1a9cebb5c4ec03ac94",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:440600": {
+      "file": "CN-440600.json",
+      "bytes": 25781,
+      "sha256": "f67b989d1fc01f50265c72cb8924fdd1e5541005c9d82c819ef0b9e9938aac31",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:440700": {
+      "file": "CN-440700.json",
+      "bytes": 55883,
+      "sha256": "4ee813b9b54c19b8d2e36b20c34cfe8bc317226e859b5d4d9648c366f4fb2d0e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:440800": {
+      "file": "CN-440800.json",
+      "bytes": 89994,
+      "sha256": "9722e36a29eb6094be6a0fbfde47882c964823886428dbdfb3bf02d793894b51",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:440900": {
+      "file": "CN-440900.json",
+      "bytes": 38624,
+      "sha256": "4f2822de39e8c249776644c4ca4e3c60f95a733f28a9e65f8ac41cbd929bbc86",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:441200": {
+      "file": "CN-441200.json",
+      "bytes": 29489,
+      "sha256": "f5d2d0710138ef6f1c2fb769c3be1024981aa600ff9865fe6100804e350c2663",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:441300": {
+      "file": "CN-441300.json",
+      "bytes": 42759,
+      "sha256": "eb226b9b86e6498028757885c39d47a9d92effbbe508f65a69800a416923cfde",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:441400": {
+      "file": "CN-441400.json",
+      "bytes": 30031,
+      "sha256": "62a8d3cac732cb16147da1d460c73da39b6c6c9f179974bed4e6add82e369e98",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:441500": {
+      "file": "CN-441500.json",
+      "bytes": 19077,
+      "sha256": "792fdc0f51d4571d83b2206fb758e6b4ee4225e955ebc84b5bd3b840e8d7821d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:441600": {
+      "file": "CN-441600.json",
+      "bytes": 34756,
+      "sha256": "3fd0a4b6a2e050754ba4eb96bc7e6600e87815c4086519608369ddad237996fa",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:441700": {
+      "file": "CN-441700.json",
+      "bytes": 33517,
+      "sha256": "98afdba5c9ef71e868ab36d16abe3fab26413e3f0ad11791a8b38572c25e267d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:441800": {
+      "file": "CN-441800.json",
+      "bytes": 26640,
+      "sha256": "7da14d5490ad68162071953c552cb83b7b9bcec231d65000abf6e4a4a5b143f1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:445100": {
+      "file": "CN-445100.json",
+      "bytes": 15322,
+      "sha256": "419963ed05a87c06ba1c14aadd4c7fd16ff60f7eb1b6b416ad92ec32e2a4f574",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:445200": {
+      "file": "CN-445200.json",
+      "bytes": 25520,
+      "sha256": "732cf8913e778c297efe4407d083276ba876df91c13e97fb0ce007572add67e1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:445300": {
+      "file": "CN-445300.json",
+      "bytes": 20614,
+      "sha256": "1cb7d425e4f95e45490002c5ed056ea4362c2173dc77d4d646195e1033bdba6a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:450000": {
+      "file": "CN-450000.json",
+      "bytes": 319258,
+      "sha256": "96f6586e0291ae8c141866a5d84b048cd67c728711f98c4bab7c527603de4371",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 14,
+      "derived": true,
+      "partial": false
+    },
+    "CN:450100": {
+      "file": "CN-450100.json",
+      "bytes": 76219,
+      "sha256": "31140d680df4bdb837ff36808a16539d2b4c294c272d3b78887973cd8adb9b75",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:450200": {
+      "file": "CN-450200.json",
+      "bytes": 52220,
+      "sha256": "e13e4795d259e62182b9da57d39c6a12b8a0d3b71bb0a920e2ec08fb7c21606e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:450300": {
+      "file": "CN-450300.json",
+      "bytes": 100734,
+      "sha256": "912b8621d1aac9ec8513daf294c9c576101b04dc6b84a11b4a97fd267f0f6c28",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 15,
+      "expected": 17,
+      "derived": false,
+      "partial": true
+    },
+    "CN:450400": {
+      "file": "CN-450400.json",
+      "bytes": 39524,
+      "sha256": "e0ca9beb295b5e36c53988ff955ef19fdf9ccd627115574373e4654985d3531a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:450500": {
+      "file": "CN-450500.json",
+      "bytes": 25359,
+      "sha256": "e443765934c20ccd7ad82b7c370eaa9aba0fe4ec94345e39c3b1dd2d090dc452",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:450600": {
+      "file": "CN-450600.json",
+      "bytes": 37195,
+      "sha256": "7d3210c01023bdcc161b0ab8a16ab295384398a56a0b3a28201fe8971c30e401",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:450700": {
+      "file": "CN-450700.json",
+      "bytes": 55170,
+      "sha256": "09a2ac5970e98b99e54767d44eae70f5e16923d363050bb157a207363b2387a7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:450800": {
+      "file": "CN-450800.json",
+      "bytes": 31291,
+      "sha256": "965429247f13db76ca579dc1c94ff09e1dea78f75cab0294fee33cbdcd69e516",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:450900": {
+      "file": "CN-450900.json",
+      "bytes": 48525,
+      "sha256": "94c8bdc6af144e688bb848f493f62fc500179e2e00ddd446b75c3f1a6621cba5",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:451000": {
+      "file": "CN-451000.json",
+      "bytes": 78351,
+      "sha256": "24d77b454e0f456568562312b2556a7ed35d7ae9a3114cc6d9f82f0c3128aed2",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:451100": {
+      "file": "CN-451100.json",
+      "bytes": 18846,
+      "sha256": "09e02b6f54cc7099ebacdfc8c508ea20360276027bd7911686e4b34e82ecab26",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:451200": {
+      "file": "CN-451200.json",
+      "bytes": 64961,
+      "sha256": "3c3be67cd1095c09acb9ad1a89bcfd005aa11354ce17b6385b4ebc377ee66d32",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:451300": {
+      "file": "CN-451300.json",
+      "bytes": 29250,
+      "sha256": "4387b0789ab2e846bd40b2abd39e2c49a8dce0ae21376f7426e7f732fc3eeaae",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:451400": {
+      "file": "CN-451400.json",
+      "bytes": 74320,
+      "sha256": "9835b303eee7e7d0d11505dbe04b01844f545bdf31bb57cc5ab5d46e9f2206ba",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:460000": {
+      "file": "CN-460000.json",
+      "bytes": 22498,
+      "sha256": "07fcd2da7aac42452a8bf44b849b192dd3101231de1342fb033d867a5f3135b7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 19,
+      "derived": true,
+      "partial": true
+    },
+    "CN:460100": {
+      "file": "CN-460100.json",
+      "bytes": 16230,
+      "sha256": "5124861c19fdf93ab5fbc1abdbc6e0e85bdbfe586de21d6b04c8b6d578eaf5e1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:460200": {
+      "file": "CN-460200.json",
+      "bytes": 19818,
+      "sha256": "270faacf88a6de0914788c97aae02c91f7278682daaf05a7c2ef63565d598fad",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:500000": {
+      "file": "CN-500000.json",
+      "bytes": 183477,
+      "sha256": "ee68269e8a706fb1532b936fee3380096a578453da22b8dd14c342339aff11d0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 33,
+      "expected": 38,
+      "derived": false,
+      "partial": true
+    },
+    "CN:510000": {
+      "file": "CN-510000.json",
+      "bytes": 410513,
+      "sha256": "4da2d45f8e2b07707a7a518251ea02394497af7cdd1042040ef5c04c64583419",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 21,
+      "expected": 21,
+      "derived": true,
+      "partial": false
+    },
+    "CN:510100": {
+      "file": "CN-510100.json",
+      "bytes": 69471,
+      "sha256": "5f222ad4f603a5404620e1ff56847cf1c798e233eeae8429c68c8b34c18fcfd8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 18,
+      "expected": 20,
+      "derived": false,
+      "partial": true
+    },
+    "CN:510300": {
+      "file": "CN-510300.json",
+      "bytes": 21553,
+      "sha256": "a7b3df60133fc6b7bfb5b9ecdb33961fb9788de8613313ab3b7b4a1e2c80c554",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:510400": {
+      "file": "CN-510400.json",
+      "bytes": 24277,
+      "sha256": "815ddcad1a5c537259e27902c003f5a2684f52e306f33a1b8bd64eaac7315533",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:510500": {
+      "file": "CN-510500.json",
+      "bytes": 46968,
+      "sha256": "d00674a39a9d13b4d5dcdb446d6572449c9a816531c1a0bef825e795f92cd7c6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:510600": {
+      "file": "CN-510600.json",
+      "bytes": 20348,
+      "sha256": "27cdb14cdbc19caa286e1386d7044bcd042c2211b3ce4d4e92bded9ce0f768c4",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:510700": {
+      "file": "CN-510700.json",
+      "bytes": 47906,
+      "sha256": "9134112b650eb0fb421631eda0f10a4df86f8127822b674f646d607b83690b18",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:510800": {
+      "file": "CN-510800.json",
+      "bytes": 43351,
+      "sha256": "1b878f099ecc2be5ee504a66f23483936e899375c2ff0fe7077b222c656263dd",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:510900": {
+      "file": "CN-510900.json",
+      "bytes": 16885,
+      "sha256": "db7ae13c20e4e12a7516055540d2cd63e4ed6a51c3a43805bd6cf57a755ab7ca",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:511000": {
+      "file": "CN-511000.json",
+      "bytes": 21224,
+      "sha256": "4d7fafaa77291bfa8c97d19432472109eb9e767793f7ae610e8322132cebfa75",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:511100": {
+      "file": "CN-511100.json",
+      "bytes": 32273,
+      "sha256": "f6cfab1c0271648b795c024694ca947be1a3145e74c56fe33c49e8cd4e73a191",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:511300": {
+      "file": "CN-511300.json",
+      "bytes": 51593,
+      "sha256": "272f07fdf699f6a8275bd4e48fecfddbb05d4fcda208d25d993414024bad2b06",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:511400": {
+      "file": "CN-511400.json",
+      "bytes": 21691,
+      "sha256": "a2a566cbebed07a51b2184d88239d7e051e7b3efa63d77654d3fa3b120b792c1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:511500": {
+      "file": "CN-511500.json",
+      "bytes": 41064,
+      "sha256": "affcdc73c2d842f5e0f74057f117bc2e019dca3abf5f04340d61436923bddd96",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:511600": {
+      "file": "CN-511600.json",
+      "bytes": 28134,
+      "sha256": "3eeac1e7f83aae55ec6d2e90b57bcd7164ed080fb407251be8c91d487535de1f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:511700": {
+      "file": "CN-511700.json",
+      "bytes": 41918,
+      "sha256": "182e65f53ac49314af14a82c99388b3de49ecba5fc5c574cfa201b06ecd98158",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:511800": {
+      "file": "CN-511800.json",
+      "bytes": 30238,
+      "sha256": "c2bf4d328f752a3eeec99db1d7cb1a7648e6c33ca15f5c2128476215760c565d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:511900": {
+      "file": "CN-511900.json",
+      "bytes": 24049,
+      "sha256": "0bd774d1f51fffb08be7f74b498992c690086864554d6d498801f8a8bb0fa9a7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:512000": {
+      "file": "CN-512000.json",
+      "bytes": 18228,
+      "sha256": "f6e9858bd69a9df6af68139aca0a324fe5543811c93419259008366200d60d9f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:513200": {
+      "file": "CN-513200.json",
+      "bytes": 89022,
+      "sha256": "490c62b9a2fc5e7523799ff4d41295cc2920551449b9325b5a866c9dcc658175",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:513300": {
+      "file": "CN-513300.json",
+      "bytes": 119964,
+      "sha256": "6d560042c3235803f48cb2a466f0a2edc193cd527f19f4be47062c869995760e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 14,
+      "expected": 18,
+      "derived": false,
+      "partial": true
+    },
+    "CN:513400": {
+      "file": "CN-513400.json",
+      "bytes": 80133,
+      "sha256": "fae7bf801f8c827329382db45ce4f939c610461fec1739b93d70b56d7e6c70d6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 17,
+      "derived": false,
+      "partial": true
+    },
+    "CN:520000": {
+      "file": "CN-520000.json",
+      "bytes": 184273,
+      "sha256": "e6abc44dc47e45638b24a6a6882f87693758358629a702d80572350c0f3a34ab",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": true,
+      "partial": false
+    },
+    "CN:520100": {
+      "file": "CN-520100.json",
+      "bytes": 57356,
+      "sha256": "a2f3d2220525539ddc3d4f796000e8e416617bca530c3c22b3ce3472865a23e6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:520200": {
+      "file": "CN-520200.json",
+      "bytes": 17395,
+      "sha256": "040b7cb0bce6b748f48bcf971985e14180a14980e89cdf9e41c891b8f4a1324a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:520300": {
+      "file": "CN-520300.json",
+      "bytes": 74163,
+      "sha256": "46c015a5764bc2637184d5fc6518ed1ccbaf998663b56c4e29f71585bf390c2b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:520400": {
+      "file": "CN-520400.json",
+      "bytes": 12713,
+      "sha256": "43e27614bbbae25c297dd871b2a9e4607dd65c66370885fc84b5b9d856ed4b0f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:520500": {
+      "file": "CN-520500.json",
+      "bytes": 42354,
+      "sha256": "d4625b6b3d6486a138135255d8ade5bc5bb56f79410ee928ca84106717f9201d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:520600": {
+      "file": "CN-520600.json",
+      "bytes": 26187,
+      "sha256": "2c5b77c043ed7b441de322919ac4da2ddf41c0263496f9814c5a3360cfb9d38c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:522300": {
+      "file": "CN-522300.json",
+      "bytes": 41921,
+      "sha256": "7fcb6636b81ee2ff3c542518dac7bc199e35e7125297d4fa3b2ec0ccc70fa75a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:522600": {
+      "file": "CN-522600.json",
+      "bytes": 81368,
+      "sha256": "366bd89681b451c28353e80b05fcbf58ae577c3b8490daee73491af2e5d813ec",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 16,
+      "expected": 16,
+      "derived": false,
+      "partial": false
+    },
+    "CN:522700": {
+      "file": "CN-522700.json",
+      "bytes": 54606,
+      "sha256": "4d153907ac57803f76c0f2bcb040e63526bcc94906eaae703a44767a2ef1ea81",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:530000": {
+      "file": "CN-530000.json",
+      "bytes": 303413,
+      "sha256": "bcdb816e48a39730113940e39022750acdaaaaeeca1ceb07a53a50f4795bed15",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 15,
+      "expected": 16,
+      "derived": true,
+      "partial": true
+    },
+    "CN:530100": {
+      "file": "CN-530100.json",
+      "bytes": 49764,
+      "sha256": "bcb5dffa53eaf98ef2ab21d588daee7c7861d9d6084a8d5658cfa4731ecb704d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:530300": {
+      "file": "CN-530300.json",
+      "bytes": 65540,
+      "sha256": "57a62f6d0251182623b879830f546729851da2d11b6cfc556edecc0d4cfd721d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 9,
+      "derived": false,
+      "partial": false
+    },
+    "CN:530400": {
+      "file": "CN-530400.json",
+      "bytes": 26480,
+      "sha256": "c09bb7adbf93949bc901d65da2e2c61449394546fafb70b412d4448e55d0efc5",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:530500": {
+      "file": "CN-530500.json",
+      "bytes": 34728,
+      "sha256": "133e6f1f955bf56ca81f1ff205320099d75c62c9b0ec88f7ea72007a8651152c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:530600": {
+      "file": "CN-530600.json",
+      "bytes": 63078,
+      "sha256": "ecaee418219c9b9e7cd5b07917e7d72a08ca48afb46bbead468fa4d5b2a791e5",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:530700": {
+      "file": "CN-530700.json",
+      "bytes": 17267,
+      "sha256": "499719313fa0ba033f426259480782852557e87c22e6c83cba088e07e63859ab",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 5,
+      "derived": false,
+      "partial": true
+    },
+    "CN:530800": {
+      "file": "CN-530800.json",
+      "bytes": 8084,
+      "sha256": "cf0e845ed1cc9f26a0ef4d400458fbca15b15d85bc9b9c4355c8a33c587fe68a",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:530900": {
+      "file": "CN-530900.json",
+      "bytes": 31762,
+      "sha256": "f87b3202807eb69915c75033def26fcd8c3cc6260d27ab8f45989f5c3dcd655e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:532300": {
+      "file": "CN-532300.json",
+      "bytes": 59869,
+      "sha256": "7dad3c271000c87ded98776db6df1cc28f9abfaae787dfa3611940db29da542b",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 10,
+      "derived": false,
+      "partial": true
+    },
+    "CN:532500": {
+      "file": "CN-532500.json",
+      "bytes": 70049,
+      "sha256": "85c540a7facce04b2dd09f70abcb2910f2c8faddb711c6f55d52f5349f1acea0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:532600": {
+      "file": "CN-532600.json",
+      "bytes": 55870,
+      "sha256": "50b8a607cbf2935041cc9e92570204aa0a17126c1369552329b312d42e7027a2",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:532800": {
+      "file": "CN-532800.json",
+      "bytes": 34036,
+      "sha256": "907db22872a852b969c01612072bd92dad8de82073975e39544a1f63eacdc79e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:532900": {
+      "file": "CN-532900.json",
+      "bytes": 48876,
+      "sha256": "dc5d91674fb0b00526a4c604dc147dd60e5096f33c4666b20bff28fe67ae31dd",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 9,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:533100": {
+      "file": "CN-533100.json",
+      "bytes": 29787,
+      "sha256": "aa9a3c7aeef547554df5510c8108cda51baa686e4188da1c8edcd97ddd2426d2",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:533300": {
+      "file": "CN-533300.json",
+      "bytes": 14241,
+      "sha256": "a0d93d7460454d3e55f5ef52db845cb96bf5481493939b5d7a9f502235fbea78",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:540000": {
+      "file": "CN-540000.json",
+      "bytes": 99904,
+      "sha256": "5628f18a23c656fc8bdab4c8963e33ad76cfdd182bd97d2995ff24a641a440cd",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": true,
+      "partial": true
+    },
+    "CN:540100": {
+      "file": "CN-540100.json",
+      "bytes": 2192,
+      "sha256": "599e45a6a165d197111807f52afa4855d13aca75d3e5d692b89aa7c4067b517d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:540200": {
+      "file": "CN-540200.json",
+      "bytes": 42892,
+      "sha256": "1189873659f7f698d91a0b9fb44ef4f21b5f7f229955c4a50f4667a63c26784e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 18,
+      "derived": false,
+      "partial": true
+    },
+    "CN:540400": {
+      "file": "CN-540400.json",
+      "bytes": 7022,
+      "sha256": "9f1831ab6f65b723ef48887d44c0902bcd3a07beebaff678c63592682ecf064e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:540500": {
+      "file": "CN-540500.json",
+      "bytes": 7918,
+      "sha256": "50507a5e8330c590d7e17196b301e4d080dd0406718bbd04d95f2a9904200383",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:540600": {
+      "file": "CN-540600.json",
+      "bytes": 29125,
+      "sha256": "57cb12eeee6c1878d943b63b7121f8c8c087e8bdc73eb712717e0c4d7c44bfdc",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:542500": {
+      "file": "CN-542500.json",
+      "bytes": 16046,
+      "sha256": "b6510320458883986880e74fe582a6cca4ec2fd9f656b3029134f635d281a28e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:610000": {
+      "file": "CN-610000.json",
+      "bytes": 154641,
+      "sha256": "62b16eae14ebc6bb9b93768626be8408c9a7446c78b4b0acc0c09f53d10599a7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": true,
+      "partial": false
+    },
+    "CN:610100": {
+      "file": "CN-610100.json",
+      "bytes": 32826,
+      "sha256": "f844bc3b1210ca9b7a7fd5dea554ea946e818feef9b7932a5a2405452a6057f7",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 13,
+      "derived": false,
+      "partial": true
+    },
+    "CN:610200": {
+      "file": "CN-610200.json",
+      "bytes": 19464,
+      "sha256": "7ddcf442afe1a144eb3af1481e6ce48213e83ff67a767e17e3096e6c1e6ed0fa",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 4,
+      "derived": false,
+      "partial": false
+    },
+    "CN:610300": {
+      "file": "CN-610300.json",
+      "bytes": 51865,
+      "sha256": "ef16d5a4d74085db201ff8b1fb46073f0f6d2007ae1f747460aa3381b43aab20",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 12,
+      "derived": false,
+      "partial": false
+    },
+    "CN:610400": {
+      "file": "CN-610400.json",
+      "bytes": 50611,
+      "sha256": "ab3924573dbf654e0dd31b4134144eb9de0e8a7a77a392ed2f09c07f3347ccbb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 12,
+      "expected": 14,
+      "derived": false,
+      "partial": true
+    },
+    "CN:610500": {
+      "file": "CN-610500.json",
+      "bytes": 36916,
+      "sha256": "81fbf039130cd4c6332762afd9f1cd14a796027a0d9df39aca630e1c80903bcb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:610600": {
+      "file": "CN-610600.json",
+      "bytes": 62474,
+      "sha256": "3abe120a69fd0e5e149ab2e5ed720b384b38e4c0713e238551ad69d7de3c2d7d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 13,
+      "derived": false,
+      "partial": false
+    },
+    "CN:610700": {
+      "file": "CN-610700.json",
+      "bytes": 60638,
+      "sha256": "87f001dce453d4845253eddca614cda194a22df9adb76abba68193c854669e3e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 11,
+      "derived": false,
+      "partial": false
+    },
+    "CN:610800": {
+      "file": "CN-610800.json",
+      "bytes": 90299,
+      "sha256": "f64619da5ef652b45ecd6399e2812dab181d33554a3b1e4334665bb866e58afb",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 11,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:610900": {
+      "file": "CN-610900.json",
+      "bytes": 43419,
+      "sha256": "45e80dda64aa7687c35ae0d79df44ad06e34b8b3f9664a3f18ab5848f8cff08f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 10,
+      "expected": 10,
+      "derived": false,
+      "partial": false
+    },
+    "CN:611000": {
+      "file": "CN-611000.json",
+      "bytes": 31030,
+      "sha256": "858af40015ac2ee3e6a6994bc008f99a8399b0b917a2e99161bf90b4ea26187f",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:620000": {
+      "file": "CN-620000.json",
+      "bytes": 240027,
+      "sha256": "84860e243913a438fb26fa6b147f6f29e2cf5b922799737be933e6071780822c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 14,
+      "derived": true,
+      "partial": true
+    },
+    "CN:620100": {
+      "file": "CN-620100.json",
+      "bytes": 53152,
+      "sha256": "a60548727715469da3f4ed1054ad29e7fbe101e419ce3cefa7b689b9a7c8539e",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:620300": {
+      "file": "CN-620300.json",
+      "bytes": 10543,
+      "sha256": "2ab6bb72d67ee0e4790ac0613e6d68c1f11fdacf13ecac25388697f18658d3c6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 2,
+      "derived": false,
+      "partial": false
+    },
+    "CN:620400": {
+      "file": "CN-620400.json",
+      "bytes": 44047,
+      "sha256": "cd3f57d996bdc705aa87682a6e45f7adabb504e06119ba8a763d1126d7ada071",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:620500": {
+      "file": "CN-620500.json",
+      "bytes": 59222,
+      "sha256": "35d6a848d3ed9777fd084d35bcdaf7857052bbcca2cd486b3f7bb0fc9a7cbece",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:620600": {
+      "file": "CN-620600.json",
+      "bytes": 13876,
+      "sha256": "e0f6fdd169107a41ba6d4b6268f07c02c34b55bd383389f59770dbf89d28b9d6",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:620700": {
+      "file": "CN-620700.json",
+      "bytes": 20305,
+      "sha256": "99fa9d3e9ccc8c58739ef00021c1b2e6f152619696e73adbb8ebb0c3ab1b0250",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:620800": {
+      "file": "CN-620800.json",
+      "bytes": 43043,
+      "sha256": "6d890737ae20a586bbf5b3e7b0be9b7f3f5d3702bf15169db0e2563c1f77f597",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:620900": {
+      "file": "CN-620900.json",
+      "bytes": 19093,
+      "sha256": "47e11aa3be131e312e64738c9328c1929e1a9e7d86966b87d5b1f8e1733300e9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:621000": {
+      "file": "CN-621000.json",
+      "bytes": 36804,
+      "sha256": "599cac3bd14da3568b62cd4e6a1d063dbdd559f5fee2f10415e84710ee96c1ee",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": false,
+      "partial": false
+    },
+    "CN:621100": {
+      "file": "CN-621100.json",
+      "bytes": 59826,
+      "sha256": "7fad616638994ce5f3f2ae664fff851d7f00ee2a4996ef046d66b0c77c1dad80",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 7,
+      "derived": false,
+      "partial": false
+    },
+    "CN:621200": {
+      "file": "CN-621200.json",
+      "bytes": 67321,
+      "sha256": "c1c5c78daa206b578e7b0db14d38c061606cb9ee26ea5c960c2afa565b6cb40d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:622900": {
+      "file": "CN-622900.json",
+      "bytes": 33059,
+      "sha256": "3d7b8d666787bcc841158afee22dd9cfff11725b49152a57a7f1c892df19d0aa",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:623000": {
+      "file": "CN-623000.json",
+      "bytes": 45873,
+      "sha256": "fbd5c272a0d431d8891c849582ce647edaa8ab41dc86c3e0a27c50c5aefc2eb8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:630000": {
+      "file": "CN-630000.json",
+      "bytes": 78114,
+      "sha256": "32fbfa3c54b31bf5ca50ed95cede403564e8b132bb1b83268cb42ac22863a6b8",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 8,
+      "expected": 8,
+      "derived": true,
+      "partial": false
+    },
+    "CN:630100": {
+      "file": "CN-630100.json",
+      "bytes": 22550,
+      "sha256": "6161e95763ca0153f2984397652edebbab11cacb46e2ffae820812323c3305c9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:630200": {
+      "file": "CN-630200.json",
+      "bytes": 3818,
+      "sha256": "46584b045b4632c3b20f6dd68cc3eb7e04780ca2410cc48d7f372cb014c9ba72",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:632200": {
+      "file": "CN-632200.json",
+      "bytes": 13929,
+      "sha256": "e2e8996c61cd9ceaa1bdaee0c904751709a98295ac5469919163aba7209afbae",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:632300": {
+      "file": "CN-632300.json",
+      "bytes": 10259,
+      "sha256": "edf250b12437ca23d03f66c3b7a4def7be6d7566010b0cd19cd07a73ce0e0b25",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:632500": {
+      "file": "CN-632500.json",
+      "bytes": 25430,
+      "sha256": "f0520d219a845b23082ca10e83d8f186c103756f0969b4799299e86ba2e4bc29",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:632600": {
+      "file": "CN-632600.json",
+      "bytes": 7961,
+      "sha256": "ae44d3951e0be787bab8f618d70d2c0a48dc787fa3fd7c9b6f3fd8e12af414b1",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:632700": {
+      "file": "CN-632700.json",
+      "bytes": 16704,
+      "sha256": "ac8bff9bb66ec27189ff8f19dde153057bfe4d01bdf75d82692a5fe323345c25",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 1,
+      "expected": 6,
+      "derived": false,
+      "partial": true
+    },
+    "CN:632800": {
+      "file": "CN-632800.json",
+      "bytes": 20275,
+      "sha256": "653abd6d7917678bb38688e4680059c9f0c71ca189a42e9d8515e9ff44112750",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:640000": {
+      "file": "CN-640000.json",
+      "bytes": 48946,
+      "sha256": "d8c0b26c2807ed837ad95353f2e77875a337cde92deb9a8fe5cd96abe5a47d39",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": true,
+      "partial": false
+    },
+    "CN:640100": {
+      "file": "CN-640100.json",
+      "bytes": 19070,
+      "sha256": "0f56848fc91a4f8cfb085bd01c71cfe3091a3fda71182a014e813602c6ceb2ee",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 6,
+      "derived": false,
+      "partial": false
+    },
+    "CN:640200": {
+      "file": "CN-640200.json",
+      "bytes": 9657,
+      "sha256": "94d00b148bb118d6300b2cd6a3a38d203bc944dd1bacad9b34dde93aec4dcb85",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:640300": {
+      "file": "CN-640300.json",
+      "bytes": 30121,
+      "sha256": "c3a76324f827b6c3a6f5cf53c758f56ddc842a92f70a2264e2838a3b7e464a72",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:640400": {
+      "file": "CN-640400.json",
+      "bytes": 16174,
+      "sha256": "04c1b484e10cc12f34ef066b7df88d888bfdd5e104f433a8ac50127690e4e29d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 5,
+      "expected": 5,
+      "derived": false,
+      "partial": false
+    },
+    "CN:640500": {
+      "file": "CN-640500.json",
+      "bytes": 17275,
+      "sha256": "5e631785f37ccd8330c3f9f48058fb9fb030f1fb4b60538d71af48ef85eb1f9d",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 3,
+      "derived": false,
+      "partial": false
+    },
+    "CN:650000": {
+      "file": "CN-650000.json",
+      "bytes": 256801,
+      "sha256": "f2389290947a97280a6e62b0079edfa952e1b9ba8013ce38f094def7970f5aab",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 13,
+      "expected": 24,
+      "derived": true,
+      "partial": true
+    },
+    "CN:650100": {
+      "file": "CN-650100.json",
+      "bytes": 28319,
+      "sha256": "a435e65cdce0a615b21489a8bc028e1ee267902b4ae050c8a6336863158572a3",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 6,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:650200": {
+      "file": "CN-650200.json",
+      "bytes": 4011,
+      "sha256": "89ad98e2d8b59e1c20629094c2493db8d544f671cd8c05c9a2a4173774e46473",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:650400": {
+      "file": "CN-650400.json",
+      "bytes": 14650,
+      "sha256": "6ce39cb25a7fb2b5747bd2dea7b3a258657af1caca8d091536e73438896167d3",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 3,
+      "derived": false,
+      "partial": true
+    },
+    "CN:650500": {
+      "file": "CN-650500.json",
+      "bytes": 15957,
+      "sha256": "7ffc2a9870768c71c7b0999fc4d00ab6278ecca585aca6949ad35a7d7983ca71",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 3,
+      "derived": false,
+      "partial": true
+    },
+    "CN:652300": {
+      "file": "CN-652300.json",
+      "bytes": 21952,
+      "sha256": "2d9215ddd6d09aa27bad66d4f81102d3d8a02d2ca3948713c96f2a85f9ec52cc",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:652700": {
+      "file": "CN-652700.json",
+      "bytes": 31546,
+      "sha256": "2093ddfcc58cf074e279665198f20f1fa0d52ee8477386b9345ed1405e42d275",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 3,
+      "expected": 4,
+      "derived": false,
+      "partial": true
+    },
+    "CN:652800": {
+      "file": "CN-652800.json",
+      "bytes": 73011,
+      "sha256": "7d9b899d78e6cbc3f51fca9571932a6c16673dde7c1475a2f4bae0a58248e612",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:652900": {
+      "file": "CN-652900.json",
+      "bytes": 17838,
+      "sha256": "7acb6d9eeee27f1b41362f6348075d1e3281a88a12d62e38d2a7b78989212702",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 9,
+      "derived": false,
+      "partial": true
+    },
+    "CN:653100": {
+      "file": "CN-653100.json",
+      "bytes": 7550,
+      "sha256": "4553009456f7461b7fd7987cb88bf925190ea31d1c3285c8624652aa6fac1eb0",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 12,
+      "derived": false,
+      "partial": true
+    },
+    "CN:653200": {
+      "file": "CN-653200.json",
+      "bytes": 19368,
+      "sha256": "01cbcec1d676f3267ba1309925a4d34dae7c44c9afb38af17cd12d4d4c17823c",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 2,
+      "expected": 8,
+      "derived": false,
+      "partial": true
+    },
+    "CN:654000": {
+      "file": "CN-654000.json",
+      "bytes": 52675,
+      "sha256": "3fede6d187f4890c8608220465c3cfa15001d9c98c1f7d574116b0ff02626745",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 7,
+      "expected": 11,
+      "derived": false,
+      "partial": true
+    },
+    "CN:654200": {
+      "file": "CN-654200.json",
+      "bytes": 34803,
+      "sha256": "ea0eb7b0b69eb6168482c5f083f44880d2a41d81b6a3fe0c47a5c6b7917d8893",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "CN:654300": {
+      "file": "CN-654300.json",
+      "bytes": 38181,
+      "sha256": "0dfef7cc5e700bf1cf7fb574c9fefa00e48b82b82df07ff66ff69067fdec4962",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 4,
+      "expected": 7,
+      "derived": false,
+      "partial": true
+    },
+    "WORLD:156": {
+      "file": "WORLD-156.json",
+      "bytes": 133664,
+      "sha256": "49c499392cedc874eb03392f4959608a700ea21abe858eb66e4f35f362b025c9",
+      "snapshot": "2017 counties / 2019 provinces",
+      "available": 34,
+      "expected": 34,
+      "derived": false,
+      "partial": false
+    }
+  },
+  "matchedCounties": 2366,
+  "unmatchedSourceCounties": 498,
+  "missingCatalogCounties": 474,
+  "totalBytes": 19425190,
+  "maxBytes": 410513,
+  "warning": "Historical, partial snapshot. City polygons are derived county footprints; missing/renamed divisions are not invented. Switch to the external snapshot when more coverage is needed."
+}

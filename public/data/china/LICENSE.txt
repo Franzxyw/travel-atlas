@@ -1,0 +1,34 @@
+China administrative boundary bundles — data licence and provenance
+
+County geometries: © OpenStreetMap contributors and Lee Beryman, distributed
+by geoBoundaries / William & Mary geoLab, CHN-ADM3-62558664 (2017 snapshot).
+Open Data Commons Open Database Licence (ODbL) v1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+https://www.openstreetmap.org/copyright
+
+The derived county bundles, prefecture footprints, and crosswalk database are
+made available under ODbL 1.0. Attribution and share-alike obligations apply
+when redistributing this database or a derivative database. The publicly
+available JSON bundles and crosswalk provide the derived database in an open,
+machine-readable form; scripts/prepare-china.mjs describes its construction.
+
+Province geometries: geoBoundaries / Wikimedia Commons, CHN-ADM1-43563684
+(2019 snapshot). Underlying source marked Public Domain by geoBoundaries.
+
+Name/code/parent/point catalog: zhChuXiao/ChinaGeoJson, revision
+7aa2c5fabc6a892015625898c3482874b233f9de, MIT. Only factual catalog fields are
+used; NO DataV geometries are bundled. The upstream MIT notice is reproduced
+in CATALOG-LICENSE.txt.
+
+Source URLs, pinned revisions and SHA-256 hashes: manifest.json.
+Per-county identity matching and omitted source/catalog rows: crosswalk.json.
+
+Changes: transliteration + centre/centroid containment matching; explicit
+Luhe/Minhang/Duchang aliases; simplify to 0.0007 degrees; round to 5 decimal
+places; group verified counties under catalog parents; dissolve matched
+county polygons to form prefecture FOOTPRINTS. These are not authoritative
+prefecture boundaries. Matching failures are omitted, not guessed.
+
+These are historical, incomplete snapshots. Names, codes, parents and borders
+may have changed; a matching code does not establish present-day geometry.
+No personal visit records, notes or inferred visits are included in this data.

@@ -2,19 +2,21 @@ import type { FeatureCollection, MultiPolygon, Polygon } from 'geojson';
 import { booleanPointInPolygon } from '@turf/boolean-point-in-polygon';
 import { pointOnFeature } from '@turf/point-on-feature';
 import type { Region, RegionFeature } from './types';
-export type Collection = FeatureCollection<Polygon | MultiPolygon, Region>;
+export type Collection = FeatureCollection<Polygon | MultiPolygon, Region> & {atlasCoverage?:{snapshot:string;available:number;expected:number;partial:boolean;derived:boolean}};
+export type BoundaryOptions = {chinaExternal?:boolean};
 const base=import.meta.env.BASE_URL;
 const pending=new Map<string,Promise<Collection>>();
 export function normalize(s:string) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[\s’'·-]/g,''); }
 export function matches(r:Region,q:string) { return [r.name,...r.aliases].some(n=>normalize(n).includes(normalize(q))); }
 async function json(url:string) {const r=await fetch(url,{signal:AbortSignal.timeout(45000)});if(!r.ok)throw new Error(`Boundary request failed (${r.status})`);return r.json();}
 export async function world():Promise<Collection>{return json(base+'data/world.json');}
-export async function children(parent:RegionFeature):Promise<Collection> {
+export async function children(parent:RegionFeature,options:BoundaryOptions={}):Promise<Collection> {
  const r=parent.properties;
- if(pending.has(r.id))return pending.get(r.id)!;
- const task=loadChildren(parent);pending.set(r.id,task);try{return await task;}catch(e){pending.delete(r.id);throw e;}
+ const key=r.id+(options.chinaExternal?':external':':local');
+ if(pending.has(key))return pending.get(key)!;
+ const task=loadChildren(parent,options);pending.set(key,task);try{return await task;}catch(e){pending.delete(key);throw e;}
 }
-async function loadChildren(parent:RegionFeature):Promise<Collection>{
+async function loadChildren(parent:RegionFeature,options:BoundaryOptions):Promise<Collection>{
  const r=parent.properties;
  if(r.id==='WORLD:276'||r.id.startsWith('DE:')) {
   if(r.level>=3)return {type:'FeatureCollection',features:[]};
@@ -22,6 +24,14 @@ async function loadChildren(parent:RegionFeature):Promise<Collection>{
  }
  if(r.id==='WORLD:156'||r.id.startsWith('CN:')) {
   if(r.level>=3)return {type:'FeatureCollection',features:[]};
+  if(!options.chinaExternal){
+   try{
+    if(r.id!=='WORLD:156'&&!/^CN:\d{6}$/.test(r.id))throw new Error('Invalid China region ID');
+    const fc=await json(base+'data/china/'+r.id.replace(':','-')+'.json') as Collection;
+    if(fc.type!=='FeatureCollection'||!Array.isArray(fc.features)||!fc.features.length||!fc.atlasCoverage||fc.atlasCoverage.available!==fc.features.length||fc.features.some(f=>f.type!=='Feature'||!f.properties||f.properties.id===r.id||!/^CN:\d{6}$/.test(f.properties.id)||f.properties.country!=='CHN'||f.properties.parent!==r.id||!Number.isInteger(f.properties.level)||f.properties.level<=r.level||f.properties.level>3||JSON.stringify(f.properties.ancestors)!==JSON.stringify([...r.ancestors,r.id])||!['Polygon','MultiPolygon'].includes(f.geometry?.type))||new Set(fc.features.map(f=>f.properties.id)).size!==fc.features.length)throw new Error('Invalid China child hierarchy');
+    return fc;
+   }catch{throw new Error('Local China snapshot unavailable or invalid. Use the External snapshot button to try the boundary providers.');}
+  }
   const code=r.id==='WORLD:156'?'100000':r.id.split(':')[1];
   function validate(raw:any){
    if(raw?.type!=='FeatureCollection'||!Array.isArray(raw.features))throw new Error('Invalid China boundary collection');
@@ -56,12 +66,12 @@ async function loadChildren(parent:RegionFeature):Promise<Collection>{
 const globalLayers=new Map<string,Collection>();
 function localName(name:string){if(/bolzano|bozen/i.test(name))return {name:'Bozen / Bolzano',aliases:[name,'Bozen','Bolzano','博尔扎诺']};return {name,aliases:[]};}
 export async function searchIndex():Promise<Region[]> {return json(base+'data/search.json');}
-export async function resolveRegion(target:Region,root:Collection):Promise<{trail:RegionFeature[];collection:Collection;feature:RegionFeature}>{
+export async function resolveRegion(target:Region,root:Collection,options:BoundaryOptions={}):Promise<{trail:RegionFeature[];collection:Collection;feature:RegionFeature}>{
  let collection=root;const trail:RegionFeature[]=[];
  for(const id of [...target.ancestors,target.id]){
   const feature=collection.features.find(f=>f.properties.id===id);if(!feature)throw new Error('Place unavailable in this boundary snapshot');
   if(id===target.id)return {trail,collection,feature};
-  trail.push(feature);collection=await children(feature);
+  trail.push(feature);collection=await children(feature,options);
  }
  throw new Error('Place not found');
 }
