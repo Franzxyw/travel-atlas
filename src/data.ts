@@ -23,9 +23,16 @@ async function loadChildren(parent:RegionFeature):Promise<Collection>{
  if(r.id==='WORLD:156'||r.id.startsWith('CN:')) {
   if(r.level>=3)return {type:'FeatureCollection',features:[]};
   const code=r.id==='WORLD:156'?'100000':r.id.split(':')[1];
+  function validate(raw:any){
+   if(raw?.type!=='FeatureCollection'||!Array.isArray(raw.features))throw new Error('Invalid China boundary collection');
+   const features=raw.features.filter((f:any)=>f?.properties?.name&&/^\d{6}$/.test(String(f.properties.adcode))&&['Polygon','MultiPolygon'].includes(f.geometry?.type));
+   const expectedLevel=(p:any)=>p.level==='province'?1:p.level==='city'?2:p.level==='district'?3:0;
+   if(!features.length||features.some((f:any)=>String(f.properties.adcode)===code||expectedLevel(f.properties)<=r.level||Number(f.properties.parent?.adcode)!==Number(code)))throw new Error('Boundary source returned the parent or an unrelated administrative level');
+   return {...raw,features};
+  }
   let raw;
-  try {raw=await json(`https://geo.datav.aliyun.com/areas_v3/bound/${code}_full.json`);}
-  catch {const folder=code==='100000'?'china.json':Number(code)%10000===0?`province/${encodeURIComponent(r.name)}.json`:`citys/${encodeURIComponent(r.name)}.json`;raw=await json(`https://raw.githubusercontent.com/zhChuXiao/ChinaGeoJson/master/${folder}`);}
+  try {raw=validate(await json(`https://geo.datav.aliyun.com/areas_v3/bound/${code}_full.json`));}
+  catch {const fallback=code==='100000'?'https://raw.githubusercontent.com/Civitasv/DataV_GeoJSON/master/geojson_full/100000_full.json':`https://raw.githubusercontent.com/zhChuXiao/ChinaGeoJson/master/${Number(code)%10000===0?'province':'citys'}/${encodeURIComponent(r.name)}.json`;raw=validate(await json(fallback));}
   const {pinyin}=await import('pinyin-pro');
   return {type:'FeatureCollection',features:raw.features.filter((f:any)=>f.properties.name&&f.geometry&&f.properties.adcode).map((f:any)=>{
    const p=f.properties;const level=p.level==='district'?3:p.level==='city'?2:1;
