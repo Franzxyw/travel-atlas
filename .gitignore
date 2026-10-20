@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.cache/
+*.local
+.env*
+!.env.example
+playwright-report/
+test-results/
+private/
+*travel-history*.json
+*travel-backup*.json
+*.tar.gz
+*.tsbuildinfo
+.sites-*/
